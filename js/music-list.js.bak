@@ -1,0 +1,50 @@
+// To add more song, just copy the following code and paste inside the array
+
+//   {
+//     name: "Here is the music name",
+//     artist: "Here is the artist name",
+//     img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
+//     src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
+//   }
+
+//paste it inside the array as more as you want music then you don't need to do any other thing
+
+let allMusic = [
+  {
+    name: "하늘이여",
+    artist: "강수지 (1998 9집 Wish)",
+    img: "kangsusie_01",
+    src: "kangsusie_01"
+  },
+  {
+    name: "흩어진 나날들",
+    artist: "강수지 (2021 라이브)",
+    img: "kangsusie_02",
+    src: "kangsusie_02"
+  },
+  {
+    name: "내마음 알겠니",
+    artist: "강수지 (2021 라이브)",
+    img: "kangsusie_03",
+    src: "kangsusie_03"
+  },
+  {
+    name: "아름다운 너에게",
+    artist: "강수지 (2021 라이브)",
+    img: "kangsusie_04",
+    src: "kangsusie_04"
+  },
+  {
+    name: "혼자만의 겨울",
+    artist: "강수지 (2021 라이브)",
+    img: "kangsusie_05",
+    src: "kangsusie_05"
+  },
+  // like this paste it and remember to give comma after ending of this bracket }
+  // {
+  //   name: "Here is the music name",
+  //   artist: "Here is the artist name",
+  //   img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
+  //   src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
+  // }
+];
