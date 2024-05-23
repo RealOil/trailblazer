@@ -11,10 +11,10 @@
 }
 :root{
   --violet: #A590D1;
-  --lightblack: #515C6F;
+  --lightblack: #2C323F;
   --white: #ffffff;
   --darkwhite: #cecaca;
-  --lightbshadow: rgba(0,0,0,0.15);
+  --lightbshadow: #1a1e25;
 }
 body{
   display: flex;
