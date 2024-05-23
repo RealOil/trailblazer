@@ -67,7 +67,7 @@ body{
 }
 .song-details{
   text-align: center;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 .song-details p{
   color: var(--white);
@@ -116,7 +116,7 @@ body{
   color: var(--white);
 }
 .controls{
-  margin: 40px 0 5px 0;
+  margin: 20px 0 5px 0;
 }
 .controls i{
   font-size: 28px;
