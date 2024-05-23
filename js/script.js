@@ -11,6 +11,12 @@ progressBar = progressArea.querySelector(".progress-bar");
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
 
+setInterval(() => {
+  let date = new Date();
+  let today = date.toLocaleString();
+  wrapper.querySelector(".today").innerHTML = today;
+}, 1000);
+
 window.addEventListener("load", ()=>{
   loadMusic(musicIndex);
   playingSong(); 
@@ -72,6 +78,24 @@ prevBtn.addEventListener("click", ()=>{
 //next music button event
 nextBtn.addEventListener("click", ()=>{
   nextMusic();
+});
+
+//change mute/on onclick
+const muteBtn = wrapper.querySelector("#mute");
+muteBtn.addEventListener("click", ()=>{
+  let getText = muteBtn.innerText; //getting this tag innerText
+  switch(getText){
+    case "volume_off":
+      muteBtn.innerText = "volume_up";
+      repeatBtn.setAttribute("title", "Volume off");
+      mainAudio.muted= true;
+      break;
+    case "volume_up":
+      muteBtn.innerText = "volume_off";
+      repeatBtn.setAttribute("title", "Volume On");
+      mainAudio.muted= false;
+      break;
+  }
 });
 
 // update progress bar width according to music current time
