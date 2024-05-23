@@ -1,10 +1,11 @@
 # [Trailblazer - Hourly Honkai Star rail Music](http://github.com/RealOil/Starrail-for-Notion/)
 
 <br/>
-Trailblazer is is being developed to be used as a Notion widget.
+Trailblazer is being developed to be included in my personal Notion.
 <br/>
-It host hourly rotationg Honkai: Star rail tracks
+It host hourly rotationg Honkai: Star rail tracks.
 <br/>
+This code is based on the web music player distributed by https://eunsolee.net/bbs/board.php?bo_table=bbs_005&wr_id=18.
 <br/>
 
 ## Current Featuers
