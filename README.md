@@ -7,6 +7,7 @@ It host hourly rotationg Honkai: Star rail tracks.
 <br/>
 This code is based on the web music player distributed by https://eunsolee.net/bbs/board.php?bo_table=bbs_005&wr_id=18.
 <br/>
+URL here [https://realoil.github.io/trailblazer/index.html]
 
 ## Current Featuers
  - Repeating Honkai: Star rail music
